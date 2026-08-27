@@ -55,8 +55,8 @@ const FOOTER_DATA = {
   },
 
   legal: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
+    { label: "Privacy Policy", href: "/privacypolicy" },
+    { label: "Terms of Service", href: "/termsofservice" },
   ],
 
   bottomBar: {

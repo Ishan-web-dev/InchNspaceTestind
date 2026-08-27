@@ -3,14 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-const NAV_LINKS = [
-  { label: "Home", href: "#" },
-  { label: "About", href: "#" },
-  { label: "Services", href: "#" },
-  { label: "Projects", href: "#" },
-  { label: "Process", href: "#" },
-  { label: "Contact", href: "#" },
-];
+
 
 const CONTACT_DETAILS = [
   {
@@ -33,7 +26,6 @@ const CONTACT_DETAILS = [
       "Phoenix Market City Mall,",
       "Viman Nagar, Pune - 411014.",
       " Maharashtra.",
-
     ],
   },
 ];
@@ -329,8 +321,9 @@ export default function ContactPage() {
                         <a
                           key={i}
                           href={item.href}
-                          className={`text-lg font-light tracking-[0.03em] block hover:text-[#e9c176] transition-colors duration-300 ${i > 0 ? "mt-2" : ""
-                            }`}
+                          className={`text-lg font-light tracking-[0.03em] block hover:text-[#e9c176] transition-colors duration-300 ${
+                            i > 0 ? "mt-2" : ""
+                          }`}
                         >
                           {item.text}
                         </a>
@@ -393,7 +386,6 @@ export default function ContactPage() {
                     className="w-full py-4 bg-[#eee0d6] text-[#121212] text-xs font-semibold uppercase tracking-[0.15em] flex items-center justify-center gap-4 transition-all duration-300 ease-in-out hover:bg-transparent hover:text-[#eee0d6] hover:ring-1 hover:ring-[#e9c176]"
                   >
                     Request a Quote
-
                     <svg
                       className="w-4 h-4"
                       fill="none"
